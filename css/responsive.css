@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1322px) {
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar .logo img {
+    margin: auto;
+  }
+  #navbar ul li a {
+    font-size: 1rem;
+  }
+  #home {
+    height: 255px;
+    padding: 43px 0px;
+  }
+  #home::before {
+    height: 550px;
+  }
+  #home h1 {
+    text-align: center;
+    font-size: 27px;
+  }
+  #home p {
+    text-align: center;
+  }
+  #services {
+    flex-direction: column;
+  }
+  #services img{
+      width: 100%;
+  }
+  #clients {
+    flex-wrap: wrap;
+  }
+  #clients img {
+    height: 153px;
+  }
+  .formGroup input,
+  .formGroup textarea { 
+    position: relative;
+    left: 123px;
+    width: 79%;
+  }
+}
